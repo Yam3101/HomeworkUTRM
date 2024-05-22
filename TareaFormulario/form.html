@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Yam</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="faviconIndex.svg" type="image/x-icon">
+    <script src="functions.js"></script>
+</head>
+<body>
+    <span class="author-name">Made by Yam</span>
+    <div class="div-cont-card">
+        <div class="form-card">
+            <h1 class="head-title">FORMULARIO</h1>
+            <p class="subtitle-form">Ingresa tus datos, los campos obligatorios se marcarán con un *</p>
+
+            <label class="text-up-input">Ingresa tu nombre: *
+                <input type="text" placeholder="Ingresa tu nombre" id="userName" class="input-style">
+            </label>
+            <label class="text-up-input">Ingresa tu número de teléfono:
+                <input type="tel" placeholder="123-123-123" id="userNumber" class="input-style">
+            </label>
+            <label class="text-up-input">Ingresa tu e-mail: *
+                <input type="email" placeholder="example@email.com" id="userEmail" class="input-style">
+            </label>
+            <div class="cont-password">
+                <label class="text-up-input">Ingresa tu contraseña: *
+                    <input type="password" placeholder="Ingresa tu contraseña" id="userPassword" class="input-style">
+                </label>
+                <label class="text-up-input">Ingresa nuevamente tu contraseña: *
+                    <input type="password" placeholder="Confirma tu contraseña" id="confirmPassword" class="input-style">
+                </label>
+            </div>
+            <label class="text-up-input"> Comentarios
+                <input type="text" class="input-style" id="comentarios">
+            </label>
+            <div class="buttons-cont">
+                <button id="button-login">Iniciar Sesión</button>
+                <button id="button-sign-in" onclick="confirmPass()">Registrarse</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

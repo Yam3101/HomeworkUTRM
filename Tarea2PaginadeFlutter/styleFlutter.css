@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+
+p {
+    margin: 0;
+    width: 50vw;
+    text-align: center;
+    font-size: larger;
+}
+
+.container-1 {
+    background-color: #0047ee;
+    color: #fff;
+    display: grid;
+    justify-items: center;
+    place-content: center;
+    padding: 3.5vi;
+    gap: 4vh;
+}
+
+.button-started {
+    background-color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    transition: background-color 0.2s;
+}
+.button-started:hover {
+    color: #fff;
+    background-color: #0034af;
+    cursor: pointer;
+}
+
+.container-cards {
+    padding: 3vi;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.card-container-1, .card-container-2 {
+    border-radius: 20px;
+    padding: 20px;
+    width: 10vw;
+    text-align: center;
+    width: 25vw;
+    box-shadow: #000 1px 0px 5px;
+    transition: background-color 0.4s;
+}
+
+.card-container-1 {
+    background-color: #0047ee;
+    color: #fff;
+}
+.card-container-1:hover {
+    background-color: #fff;
+    color: #000;
+    box-shadow: #000 1px 0px 10px;
+}
+
+.card-container-2:hover {
+    background-color: #0047ee;
+    color: #fff;
+    box-shadow: #000 1px 0px 10px;
+}
+
+.title-1 {
+    text-align: left;
+    font-size: 22px;
+}
+
+.linkTo {
+    text-align: left;
+    padding-top: 7vh;
+    padding-left: 20px;
+    cursor: pointer;
+}

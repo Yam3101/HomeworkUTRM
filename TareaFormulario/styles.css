@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jersey+15&family=League+Spartan:wght@100..900&family=Pacifico&family=Reem+Kufi+Fun:wght@400..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    background-color: #001139;
+    font-family: teachers;
+    font-weight: 500;
+}
+
+.author-name {
+    font-family: dm sans;
+    color: #fff;
+}
+
+.div-cont-card {
+    display: grid;
+    place-content: center;
+    align-items: center;
+}
+
+.form-card {
+    background-color: #fff;
+    width: 40vw;
+    border-radius: 5px;
+    padding: 2vi;
+    display: grid;
+    gap: 5px;
+}
+
+.head-title {
+    text-align: center;
+    margin: 0;
+}
+
+.subtitle-form {
+    margin: 0;
+    padding-bottom: 2vh;
+}
+
+.text-up-input {
+    margin: 0;
+    display: grid;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.input-style {
+    border: #000000 1px solid;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.cont-password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#userPassword {
+    width: 18vw;
+}
+#confirmPassword {
+    width: 18vw;
+}
+
+.buttons-cont {
+    padding: 20px;
+    display: flex;
+    place-content: center;
+    gap: 10px;
+}
+
+#button-sign-in {
+    font-family: dm sans;
+    font-weight: 900;
+    background-color: #008cff;
+    padding: 12px;
+    width: 10vw;
+    border-radius: 50px;
+    transition: background-color 0.4s;
+    border: none;
+}
+#button-sign-in:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #008cff;
+}
+
+#button-login {
+    font-family: dm sans;
+    font-weight: 900;
+    background-color: #0055de;
+    padding: 12px;
+    width: 10vw;
+    border-radius: 50px;
+    transition: background-color 0.4s;
+    border: none;
+}
+#button-login:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #0055de;
+}
