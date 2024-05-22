@@ -48,7 +48,7 @@ p {
     padding: 20px;
     width: 10vw;
     text-align: center;
-    width: 25vw;
+    width: 30vw;
     box-shadow: #000 1px 0px 5px;
     transition: background-color 0.4s;
 }
@@ -79,4 +79,13 @@ p {
     padding-top: 7vh;
     padding-left: 20px;
     cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .container-cards {
+        display: grid;
+    }
+    .card-container-1, .card-container-2 {
+        width: 70vw;
+    }
 }
