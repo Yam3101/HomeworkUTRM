@@ -87,7 +87,7 @@ p {
 .foto-demo {
     color: black;
     background-color: #fff;
-    border-radius: 30px;
+    border-radius: 20px;
     opacity: 55%;
     padding: 35px;
     width: 70%;
@@ -101,7 +101,8 @@ p {
 @media (max-width: 750px) {
     .container-cards {
         display: grid;
-        gap: 20px;
+        gap: 30px;
+        margin-top: 12px;
     }
     .card-container-1, .card-container-2 {
         width: 70vw;
