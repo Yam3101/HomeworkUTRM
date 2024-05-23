@@ -7,7 +7,7 @@ p {
     margin: 0;
     width: 50vw;
     text-align: center;
-    font-size: larger;
+    font-size: 22px;
 }
 
 .container-1 {
@@ -16,8 +16,9 @@ p {
     display: grid;
     justify-items: center;
     place-content: center;
-    padding: 3.5vi;
+    padding: 100px;
     gap: 4vh;
+    text-align: left;
 }
 
 .button-started {
@@ -40,13 +41,13 @@ p {
     padding: 3vi;
     display: flex;
     justify-content: center;
-    gap: 2vw;
+    gap: 3vw;
 }
 
 .card-container-1, .card-container-2 {
     border-radius: 20px;
-    padding: 20px;
-    width: 10vw;
+    padding: 30px;
+    width: 9vw;
     text-align: center;
     width: 30vw;
     box-shadow: #000 1px 0px 5px;
@@ -72,18 +73,35 @@ p {
 .title-1 {
     text-align: left;
     font-size: 22px;
+    padding: 20px;
+    margin: 0;
 }
 
 .linkTo {
     text-align: left;
-    padding-top: 7vh;
     padding-left: 20px;
+    padding-top: 7vh;
     cursor: pointer;
+}
+
+.foto-demo {
+    color: black;
+    background-color: #fff;
+    border-radius: 30px;
+    opacity: 55%;
+    padding: 35px;
+    width: 70%;
+}
+
+.foto-container {
+    display: grid;
+    place-items: center;
 }
 
 @media (max-width: 750px) {
     .container-cards {
         display: grid;
+        gap: 20px;
     }
     .card-container-1, .card-container-2 {
         width: 70vw;
